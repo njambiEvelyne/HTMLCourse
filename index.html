@@ -341,7 +341,50 @@
   </datalist>
 </p> -->
 </fieldset>
-         
+<br>
+<fieldset>
+  <legend>What is your favourite food?</legend>
+  <p>
+    <input type="radio" name="food" id="tacos" value="tacos">
+    <label for="tacos">Tacos</label>
+  </p>
+
+  <p>
+    <input type="radio" name="food" id="fish" value="fish">
+    <label for="tacos">Fish</label>
+  </p>
+
+  <p>
+    <input type="radio" name="food" id="cat" value="cat">
+    <label for="cat">Cat</label>
+  </p>
+
+  <p>
+    <input type="radio" name="food" id="dog" value="dog">
+    <label for="dog">Dog</label>
+  </p>
+  </fieldset>
+
+  <br>
+  <fieldset>
+    <legend>What do you want to do today?</legend>
+    <label for="activity">Activity</label>
+    <br>
+    <textarea name="Today's activity" id="activity" cols="50" rows="30" placeholder="Note down today's activities:"></textarea>
+
+
+  </fieldset>
+  <br>
+<fieldset>
+    <legend>Send Me A Note</legend>
+    <label for="message">Your Message</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+</fieldset>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+       <button type="reset">Reset</button>  
       </form>
       <form action="post"></form>
     </article>
